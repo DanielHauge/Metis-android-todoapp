@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="6dp">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp">
+
+
+        <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Body"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_alignParentTop="true"
+
+        />
+
+        <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_toEndOf="@+id/text"
+                android:layout_marginStart="8dp"
+
+
+        />
+
+        <ImageView android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   android:src="@drawable/ic_delete_black_24dp"
+                   android:layout_alignParentTop="true"
+                   android:layout_alignParentEnd="true"
+                   android:id="@+id/image_delete"
+        />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
